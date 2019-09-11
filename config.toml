@@ -1,0 +1,25 @@
+baseURL = "https://atog.nl"
+languageCode = "nl-nl"
+title = "Atog"
+theme = "journal"
+url = "https://atog.nl"
+name = "Atog"
+description = "Een blog over tech, code, privacy en politiek."
+
+[author]
+    name = "grrrben"
+[params]
+  description = "Een blog over tech, code, privacy en politiek."
+  githubUsername = "grrrben"
+  twitterUsername = "grrrben"
+  tagline = "Een blog over tech, code, privacy en politiek."
+
+[params.work]
+  jobTitle = "Developer"
+  company = "Saxum"
+  companyUrl = "https://saxum.nl/"
+
+[params.gpg]
+  key = "35E7B457"
+  fingerprint = "22D9 2B6B 10E2 AB47 4A46  BDD8 1687 CD02 35E7 B457"
+  link = "https://pgp.mit.edu/pks/lookup?op=get&search=35E7B457"
