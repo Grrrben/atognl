@@ -46,7 +46,7 @@ Onleesbaar dus, de zin wordt iets als:
 
 _`zmNOOe@{��}9������#-��^� ����Jh��l0����c2S���a>�AA/�z�2��*c�@^w�P�Xu�HK���hu_u̴Jsi���7 [etc]`_
 
-Sterker nog, iedere keer als je de zin versleuteld zal de uitkomst anders zijn. De test \`TestEncryptionNeverTheSame\` in de  testfile laat dit zien.
+Sterker nog, iedere keer als je de zin versleuteld zal de uitkomst anders zijn. De test `TestEncryptionNeverTheSame` in de  testfile laat dit zien.
 
 Niemand kan het lezen, behalve als je Ingrid bent, want dan ben je in het bezit van de privésleutel die deze tekst kan ontsleutelen.
 
@@ -80,7 +80,7 @@ Nog ééntje van Ingrid, om het af te sluiten:
 
 Zie je iets aan de code dat je zelf anders zou doen? Schiet een PR in bij de [repository][1].<figure id="attachment_411" style="width: 733px" class="wp-caption alignnone">
 
-[<img class="wp-image-411 size-full" src="https://atog.nl/wp-content/uploads/2018/11/public_key.png" alt="" width="733" height="282" srcset="https://atog.nl/wp-content/uploads/2018/11/public_key.png 733w, https://atog.nl/wp-content/uploads/2018/11/public_key-300x115.png 300w" sizes="(max-width: 733px) 100vw, 733px" />][2]<figcaption class="wp-caption-text">https://xkcd.com/1553/</figcaption></figure> 
+[<img class="wp-image-411 size-full" src="/images/wp-content/uploads/2018/11/public_key.png" alt="" width="733" height="282" srcset="/images/wp-content/uploads/2018/11/public_key.png 733w, /images/wp-content/uploads/2018/11/public_key-300x115.png 300w" sizes="(max-width: 733px) 100vw, 733px" />][2]<figcaption class="wp-caption-text">https://xkcd.com/1553/</figcaption></figure> 
 
 Bronnen:
 
@@ -90,9 +90,8 @@ Github repository; https://github.com/Grrrben/golang-rsa
 
 De quotes van Henk en Ingrid zijn geleend; <https://bronsdom.wordpress.com/2011/11/17/uitspraken-van-henk-en-ingrid/>
 
-<p id="title" class="graf graf--h2 graf--leading">
-  Explaining public-key cryptography to non-geeks; https://blog.vrypan.net/2013/08/28/public-key-cryptography-for-non-geeks/
-</p>
+
+Explaining public-key cryptography to non-geeks; <https://blog.vrypan.net/2013/08/28/public-key-cryptography-for-non-geeks/>
 
  [1]: https://github.com/Grrrben/golang-rsa
- [2]: https://atog.nl/wp-content/uploads/2018/11/public_key.png
+ [2]: /images/wp-content/uploads/2018/11/public_key.png

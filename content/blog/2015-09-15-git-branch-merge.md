@@ -10,7 +10,7 @@ tags:
   - git
 
 ---
-[<img class="alignnone size-large wp-image-132" src="https://www.atog.nl/wp-content/uploads/2015/09/trains-1024x640.jpg" alt="trains" width="660" height="413" srcset="https://atog.nl/wp-content/uploads/2015/09/trains-1024x640.jpg 1024w, https://atog.nl/wp-content/uploads/2015/09/trains-300x188.jpg 300w" sizes="(max-width: 660px) 100vw, 660px" />][1]
+[<img class="alignnone size-large wp-image-132" src="https://www.atog.nl/wp-content/uploads/2015/09/trains-1024x640.jpg" alt="trains" width="660" height="413" srcset="/images/wp-content/uploads/2015/09/trains-1024x640.jpg 1024w, /images/wp-content/uploads/2015/09/trains-300x188.jpg 300w" sizes="(max-width: 660px) 100vw, 660px" />][1]
 
 Dit is een vervolg op de eerdere blog over de [GIT commando&#8217;s][2].
 
