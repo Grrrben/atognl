@@ -29,7 +29,7 @@ Communication with the API is done by an [AsyncTask][1] inner class which is hou
 
 In a bit more detail:
 
-<pre><code class="java">
+<code class="java">
 protected class CallAPI extends AsyncTask&lt;String, Void, Void&gt; {
 	// see http://developer.android.com/reference/android/os/AsyncTask.html
 }
@@ -38,11 +38,11 @@ protected class CallAPI extends AsyncTask&lt;String, Void, Void&gt; {
 Which is called by method startAsyncTask():</p>
 
 
-<pre><code class="java">
+<code class="java">
 protected final void startAsyncTask() {
 	new CallAPI(this).execute(urlString); // urlString is a protected String
 }
-</code></pre>
+</code>
 
 
 <p>
@@ -50,7 +50,7 @@ protected final void startAsyncTask() {
 </p>
 
 
-<pre><code class="java">
+<code class="java">
 protected final BroadcastReceiver networkStateReceiver = new BroadcastReceiver() {
 	// protected as it's defined in the base class.
 	@Override
@@ -67,7 +67,7 @@ protected final BroadcastReceiver networkStateReceiver = new BroadcastReceiver()
 		}
 	}
 };
-</code></pre>
+</code>
 
 
 <p>
@@ -75,7 +75,7 @@ protected final BroadcastReceiver networkStateReceiver = new BroadcastReceiver()
 </p>
 
 
-<pre><code class="java">
+<code class="java">
 if(isConnected) {
 	// Connection available
 	// just start the download
@@ -87,7 +87,7 @@ if(isConnected) {
 	// Register the BroadcastReceiver to fetch your data later
 	registerReceiver(networkStateReceiver, new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION));
 }
-</code></pre>
+</code>
 
 
 <p>
@@ -95,6 +95,6 @@ if(isConnected) {
 </p>
 
 
-<pre><code class="java">unregisterReceiver(networkStateReceiver);</code></pre>
+<code class="java">unregisterReceiver(networkStateReceiver);</code>
 
  [1]: http://developer.android.com/reference/android/os/AsyncTask.html

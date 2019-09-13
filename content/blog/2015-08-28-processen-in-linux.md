@@ -30,33 +30,33 @@ Wil je even een snelle blik op bepaalde processen werpen dan is `ps` beter gesch
 
 Het `ps` commando geeft standaard alleen een lijst met de processen van het huidige terminal venster. Dat is vrij mager, waarschijnlijk wil je meer zien dan. Een lijst met _alle_ processen bijvoorbeeld:
 
-<pre>ps aux</pre>
+ps aux
 
 Dit commando geeft een duidelijk overzicht van alle processen met informatie over de user en tijd erbij. Bij ieder process staat een ID (process id), dit is de unieke identifier waarmee je het process kunt aanspreken.
 
 ps kan soms een lange lijst geven. Om het overzichtelijk te houden kun je het commando pipen (uitbreiden met een extra commando). Bijvoorbeeld `more` of `less`:
 
-<pre>ps aux | more
-ps aux | less</pre>
+ps aux | more
+ps aux | less
 
 Ben je op zoek naar iets specifieks, bijvoorbeeld omdat Iceweasel vastloopt, gebruik dan een pipe met grep:
 
-<pre>ps aux | grep icew</pre>
+ps aux | grep icew
 
 `grep` is een afkorting van &#8220;Global Regular Expression Parser&#8221;, het programma print lijnen die aan een opgegeven regex pattern voldoen
   
 Of nog sneller: `pgrep`
 
-<pre>pgrep icew</pre>
+pgrep icew
 
 En dan nu, omdat je het commando meestal gebruikt om een problematisch process te beeindigen:
 
-<pre>kill PID_van_het_process</pre>
+kill PID_van_het_process
 
 Dus bijvoorbeeld: `kill 1234`
 
 Is een process hardnekkig, en lukt het kill&#8217;en niet direct gebruik dan:
 
-<pre>kill -KILL PID_van_het_process</pre>
+kill -KILL PID_van_het_process
 
  [1]: https://www.atog.nl/wp-content/uploads/2015/08/Screenshot-from-2015-08-28-085839.png

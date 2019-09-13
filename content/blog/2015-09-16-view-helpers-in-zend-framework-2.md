@@ -108,5 +108,5 @@ Voorbeeld file: `App/config/application.config.php`
 
 Aanroepen vanuit de view gaat als volgt:
 
-<pre><code class="php">echo $this-&gt;strings()-&gt;repeatDaysString($int);
-echo $this-&gt;datum($date);</code></pre>
+<code class="php">echo $this-&gt;strings()-&gt;repeatDaysString($int);
+echo $this-&gt;datum($date);</code>

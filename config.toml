@@ -14,10 +14,10 @@ description = "Een blog over tech, code, privacy en politiek."
   twitterUsername = "grrrben"
   tagline = "Een blog over tech, code, privacy en politiek."
 
-[params.work]
-  jobTitle = "Developer"
-  company = "Saxum"
-  companyUrl = "https://saxum.nl/"
+#[params.work]
+#  jobTitle = "Developer"
+#  company = "Saxum"
+#  companyUrl = "https://saxum.nl/"
 
 [params.gpg]
   key = "35E7B457"

@@ -18,21 +18,21 @@ Met `journalctl` kan je systemd journal/log bekijken en query’en.<!--more-->
 
 Met de `-u` flag kun je de naam van een service meegeven om alleen daarvan de logs te zien. Met de `-b` flag zie je alle logs _vanaf_ de laatste start van de computer.
 
-<pre>journalctl -b -u &lt;ServiceName&gt;</pre>
+journalctl -b -u &lt;ServiceName&gt;
 
 Je kan de tijd nog iets strakker zetten, de logs sinds gisteren bijvoorbeeld:
 
-<pre>journalctl -b -u &lt;ServiceName&gt; --since='yesterday'</pre>
+journalctl -b -u &lt;ServiceName&gt; --since='yesterday'
 
 Of het laatste uur:
 
-<pre>journalctl -b -u &lt;ServiceName&gt; --since='1 hour ago'</pre>
+journalctl -b -u &lt;ServiceName&gt; --since='1 hour ago'
 
 Naast `--since` is er ook een `--until`. Beide werken, naast bovengenoemde voorbeelden, met `"yyyy-dd-mm hh:mm"` notatie.
 
 Een van de meest gebruite parameters is de `-f` flag. Door deze mee te geven blijf je de output volgen, een beetje zoals `tail` werkt:
 
-<pre>journalctl -f -u &lt;ServiceName&gt;</pre>
+journalctl -f -u &lt;ServiceName&gt;
 
 Om `journalctl` zonder `sudo` te gebruiken moet de user in groep `systemd-journal` zit.
 

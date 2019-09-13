@@ -16,20 +16,17 @@ met voornamelijk kleine post met een paar commando's voor
 de linux CLI of programma's. 
 Zo nu en dan een blogpost of een klein reisverslag maar dat is het ook.  
 
-Wil je dat dan perse dynamisch hebben, of is statisch eigenlijk wel prima. 
+Wil je dat dan perse dynamisch hebben, of is statisch eigenlijk wel prima? 
 Want reageren kan bij het laatste bijvoorbeeld niet. 
 Maar goed, realistisch, hoeveel reacties kreeg ik. 
 Dat zijn er maar weinig.
 In elk geval te weinig om de verantwoordelijkheid van een dynamische website 
 te willen dragen. 
 
-Want je moet wel:  
-- Reacties checken, wat voornamelijk het blokkeren van SPAM bots betekend.  
-- Wordpress altijd updaten omdat de hele hacker (script kiddies) 
-wereld altijd de Wordpress sites kraakt.  
-- Je Wordpress plugins updaten  
-- PHP draaien en updaten  
-- Een database draaien en updaten
+Want je moet wel altijd je reacties checken, wat voornamelijk het blokkeren van SPAM bots betekend. 
+En Wordpress en al de plugins zijn _altijd_ aan een update toe. 
+Ik snap het wel, de hele hacker (script kiddies) wereld probeert altijd Wordpress sites te kraken, 
+maar het is wel weer werk. Oh, en vergeet niet, de dependencies, je moet ook PHP en een database draaien en updaten.
 
 Dus ik ben naar [Hugo](https://gohugo.io) gegaan! 
 En dat ging best simpel. 

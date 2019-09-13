@@ -19,11 +19,11 @@ Een korte samenvatting voor het installeren van een schone VPS image.<!--more-->
 
 SSH is een stuk veiliger als je geen root toelaat. Daarvoor wijzig je bestand \`/etc/ssh/sshd_config\`.
 
-<pre>PermitRootLogin no</pre>
+PermitRootLogin no
 
 Daarna de service herstarten.
 
-<pre>/etc/init.d/ssh restart</pre>
+/etc/init.d/ssh restart
 
 Er zijn hele betogen geschreven over het wel of niet wijzigen van de poort. Mocht het gewenst zijn dan is het in het zelfde bestandje aan te passen.
 
@@ -33,37 +33,37 @@ Beetje leesvoer: <https://help.ubuntu.com/community/UFW>. Maar kort samengevat
 
 Iedereen moet bijvoorbeeld bij je websites kunnen:
 
-<pre>sudo ufw allow 80/tcp</pre>
+sudo ufw allow 80/tcp
 
 Ook als het om SSL gaat:
 
-<pre>sudo ufw allow 443/tcp</pre>
+sudo ufw allow 443/tcp
 
 En jij alleen bij SSH:
 
-<pre>sudo ufw allow from &lt;ip&gt; to any port 22</pre>
+sudo ufw allow from &lt;ip&gt; to any port 22
 
 Checken of alles goed staat:
 
-<pre>sudo ufw status</pre>
+sudo ufw status
 
 Herstarten gaat via aan/uit:
 
-<pre>sudo ufw disable
-sudo ufw enable</pre>
+sudo ufw disable
+sudo ufw enable
 
 **FTP**
 
 De group webmasters mag bij /var/www:
 
-<pre>sudo chgrp -R webmasters /var/www
+sudo chgrp -R webmasters /var/www
 sudo find /var/www -type d -exec chmod g=rwxs "{}" \;
-sudo find /var/www -type f -exec chmod g=rws "{}" \;</pre>
+sudo find /var/www -type f -exec chmod g=rws "{}" \;
 
 De FTP user behoort tot de webmasters.
 
-<pre>sudo adduser &lt;ftpusername&gt;
-sudo adduser &lt;ftpusername&gt; webmasters</pre>
+sudo adduser &lt;ftpusername&gt;
+sudo adduser &lt;ftpusername&gt; webmasters
 
 Verder is het het makkelijkst om ook de FTP via SSH te doen.
 
@@ -71,7 +71,7 @@ Verder is het het makkelijkst om ook de FTP via SSH te doen.
 
 Backups van de apache2 kun je via SCP overzetten naar /etc/apache2/sites-available.
 
-<pre>scp &lt;local_file&gt; &lt;user&gt;@&lt;host-ip&gt;:&lt;/path/remote_file&gt;</pre>
+scp &lt;local_file&gt; &lt;user&gt;@&lt;host-ip&gt;:&lt;/path/remote_file&gt;
 
 Tenzij je een Ubuntu versie hebt, die heeft geen echte superuser, zucht. Je kan het dan verplaatsen via SFTP en dan met een sudo -i op de juiste plek zetten.
 
@@ -85,6 +85,6 @@ De halve wereld wil graag in je database rondneuzen. Een goed wachtwoord is het 
 
 Bovenaan bestand /etc/apache2/conf-available/phpmyadmin.conf kun je de alias wijzigen:
 
-<pre>Alias /phpmyadmin /usr/share/phpmyadmin</pre>
+Alias /phpmyadmin /usr/share/phpmyadmin
 
  [1]: https://certbot.eff.org/
