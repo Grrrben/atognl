@@ -14,10 +14,10 @@ En als Remco Breuker of [Karin Spaink](https://www.spaink.net/) in de pen klimme
 Maar de zuurpruim in mij heeft ook wel iets te klagen. 
 Blendle is een website die aan alle kanten populaire en hip wil zijn, en dat stoort me.  
 
-## Klikbeet
+## Clickbait
 
 Met stip op één, de titels. Blendle bedenkt graag zelf titels bij artikelen. 
-Waarschijnlijk omdat ze die beter bij het internet vinden passen. 
+Waarschijnlijk omdat ze die beter bij het internet vinden passen. Lekker clickable, zodat mensen eerder doorlezen.
 Maar het concept Blendle is in de basis een nieuwssite waarop je nieuws uit vele bronnen kunt lezen. 
 Waarom ga je er dan zelf een sausje overheen gooien? 
 Want dan doe je ineens zelf aan journalistiek, wat me niet toepasselijk lijkt voor een doorgeefluik.
@@ -26,8 +26,9 @@ Even een voorbeeldje:
 
 _Deze journalist ging op psychedelische truffelretraite. Nu wil onze redacteur ook_  
 
-Ja hartstikke leuk joh, maar wat heb ik met _jullie_ redacteur te maken? En waarom heeft Blendle eigenlijk een redacteur als je alleen bestaand nieuws doorplaatst?
-De originele title was _Op truffeltrip in Zandvoort: waarom psychedelica een comeback maken_. Lijkt mij prima toch?
+Ja hartstikke leuk joh, maar wat heb ik met _jullie_ redacteur te maken? 
+En waarom heeft Blendle eigenlijk een redacteur als je alleen bestaand nieuws doorplaatst?
+De originele title is _Op truffeltrip in Zandvoort: waarom psychedelica een comeback maken_. Lijkt mij prima toch?
 
 ## Supersympathiek
 
@@ -47,7 +48,7 @@ En het liefst met Mathijs bij DWDD.
 We zouden bijna vergeten dat Blendle eigenlijk door Marten Blankesteijn is bedacht. 
 Maar die heeft waarschijnlijk een persoonlijkheid die zo relaxed en rustig is, dat hij de publiciteit graag aan Alexander overlaat. 
 
-[Salamander Klöpping](https://www.youtube.com/watch?v=7EMVvlOvENo) is leuker.
+[Salamander Klöpping](https://www.youtube.com/watch?v=7EMVvlOvENo) is veel leuker.`
 
 ## Abonnement
 
@@ -67,7 +68,9 @@ Daarmee wordt Blendle in plaats van een elektronische kiosk ook zelf een uitgeve
 
 Bron: [NRC](https://www.nrc.nl/nieuws/2017/03/07/waarom-nrc-stopt-met-blendle-a1549164)
 
-Maar het is jammer. NRC is een hele goede krant met een eigen geluid. Juist die titels maken het aanbod, en mijn overzicht, compleet. 
+Maar het is jammer. NRC is een hele goede krant met een eigen geluid. 
+Juist die titels maken het aanbod, en mijn overzicht, compleet. 
+
 Ondertussen zet Blendle door naar een abonnement-only structuur, waar je straks geeneens meer een los artikel kan kopen...
 
 ##  Oplossing
@@ -79,5 +82,4 @@ Dat kan niet anders dan winstgevend zijn.
 Maar goed, ik ben niet de baas bij Blendle. En ik denk dat ze het vanuit een professioneel oogpunt erg goed doen. 
 Bijna alle titels van Nederland en verschillende heel grote internationale titels als de NY times op de koop toe. 
 
-Het is een complimentje waard. Ze zouden alleen toch echt wat minder irritant moeten zijn.
-
+Het is zeker een complimentje waard. Ze zouden alleen wat minder irritant kunnen zijn.
