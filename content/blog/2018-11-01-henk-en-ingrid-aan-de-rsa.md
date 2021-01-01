@@ -52,6 +52,8 @@ Niemand kan het lezen, behalve als je Ingrid bent, want dan ben je in het bezit 
 
 {{< gist Grrrben 468ae117aead53847754fd2bf2261f2a "rsa_decrypt.go" >}}
 
+> Die uitkeringstrekkers pikken al onze banen in
+
 In de repository van Github zitten een paar tests. Die draai je met `go test -v`. De method `TestEncryptDecrypt` geeft een voorbeeld van een ontsleuteling van de boodschap met `Decrypt`.
 
 {{< gist Grrrben e74d0becb95aca59a1661a0745532106 "rsa_encrypt_decrypt.go" >}}
@@ -64,13 +66,19 @@ Het versleutelen van een boodschap is de voornaamste functionaliteit van encrypt
 
 Het ondertekenen van Henk&#8217;s publieke boodschap <span style="background-color: #e9ebec; color: #222222; font-family: Inconsolata, monospace;">msg</span>, _&#8220;wetenschap is ook maar een mening&#8221;,_ gebeurd met de private key van de boodschapper. De `[]byte` return value is de _signature_ die met de boodschap meegezonden moet worden.
 
+> Wetenschap is ook maar een mening
+
 {{< gist Grrrben 468ae117aead53847754fd2bf2261f2a "rsa_sign.go" >}}
 
 Hierna kan _iedereen_ verifieren dat de boodschap inderdaad van Henk is, door de `Verify` method met Henk&#8217;s publieke sleutel aan te roepen:
 
 {{< gist Grrrben 468ae117aead53847754fd2bf2261f2a "rsa_verify.go" >}}
 
-Zodra er iets veranderd aan de boodschap `msg`, de signature `sig` of de publieke sleutel `pk` zal Verify een error terug geven. Dit kunnen we allemaal afvangen met een unittest:
+Zodra er iets veranderd aan de boodschap `msg`, de signature `sig` of de publieke sleutel `pk` zal Verify een error terug geven. 
+
+> Wilders doet tenminste iets tegen de politiek
+
+Dit kunnen we allemaal afvangen met een unittest:
 
 {{< gist Grrrben 92138ee80ed66ae4bfd5a3b3956b7891 "test_sign_verify.go" >}}
 

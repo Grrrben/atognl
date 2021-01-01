@@ -36,9 +36,11 @@ journalctl -b -u <ServiceName> --since='1 hour ago'
 
 Naast `--since` is er ook een `--until`. Beide werken, naast bovengenoemde voorbeelden, met `"yyyy-dd-mm hh:mm"` notatie.
 
-Een van de meest gebruite parameters is de `-f` flag. Door deze mee te geven blijf je de output volgen, een beetje zoals `tail` werkt:
+Een van de meest gebruikte parameters is de `-f` flag. Door deze mee te geven blijf je de output volgen, een beetje zoals `tail` werkt:
 
-journalctl -f -u &lt;ServiceName&gt;
+```
+journalctl -f -u <ServiceName>
+```
 
 Om `journalctl` zonder `sudo` te gebruiken moet de user in groep `systemd-journal` zit.
 

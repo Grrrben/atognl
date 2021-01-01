@@ -7,7 +7,8 @@ type: post
 Je moet altijd positief beginnen zei mijn mentor eens tegen tijdens mijn studie. 
 
 Goed advies. Want alhoewel dit een klaagpost is, is Blendle in principe fantastisch. 
-Ik heb een brede interesse en Blendle laat me heel gemakkelijk het nieuws volgen. Met _alerts_ over onderwerpen als privacy, encryptie (ik werk in de IT) ben ik altijd op de hoogte. 
+Ik heb best een brede interesse en Blendle laat me heel gemakkelijk het nieuws volgen. 
+Met _alerts_ over onderwerpen als privacy, encryptie (ik werk in de IT) ben ik altijd op de hoogte. 
 Maar ook artikelen over veenweiden (waar ik woon) en het neolithicum (omdat het kan) ontgaan mijn aandacht niet meer. 
 En als Remco Breuker of [Karin Spaink](https://www.spaink.net/) in de pen klimmen heb ik dat als eerste door. 
 
@@ -48,13 +49,13 @@ En het liefst met Mathijs bij DWDD.
 We zouden bijna vergeten dat Blendle eigenlijk door Marten Blankesteijn is bedacht. 
 Maar die heeft waarschijnlijk een persoonlijkheid die zo relaxed en rustig is, dat hij de publiciteit graag aan Alexander overlaat. 
 
-[Salamander Klöpping](https://www.youtube.com/watch?v=7EMVvlOvENo) is veel leuker.`
+[Salamander Klöpping](https://www.youtube.com/watch?v=7EMVvlOvENo) is veel leuker.
 
 ## Abonnement
 
 Waarschijnlijk is het verdienmodel van betalen per artikel niet goed genoeg. 
 Althans, niet voor de plannen die Blendle heeft. 
-Er staan ook grote investeerders achter, vergeet dat niet. 
+Er staan grote investeerders achter, vergeet dat niet.  
 
 Daarom heeft Blendle al een poosje een Premium abonnement waarbij je voor een tientje per maand onbeperkt artikelen kunt lezen. 
 Maar door deze _service_ gaan ze ook ineens de concurrentie aan met de bladen die op Blendle staan. 
